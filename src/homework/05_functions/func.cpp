@@ -9,8 +9,6 @@ using std::string;
 void string_value_param(std::string lang)
 {
     for (auto ch: lang)
-    {
-        // ch = ''; // Invalid assignment, removed to fix error
-    }
+        ch = toupper(ch);
     cout << lang << "\n";
 }
