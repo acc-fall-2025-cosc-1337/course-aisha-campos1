@@ -2,6 +2,8 @@
 #include <cctype>
 #include <iostream>
 #include "tic_tac_toe.h"
+#include "tic_tac_toe_4.h"
+#include "tic_tac_toe_manager.h"
 
 using std::cin;
 using std::cout;
